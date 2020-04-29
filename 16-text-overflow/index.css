@@ -1,0 +1,8 @@
+.demo1{
+    width: 100px;
+    margin: 0 auto;
+    border: 1px solid black;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}

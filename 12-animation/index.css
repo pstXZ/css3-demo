@@ -1,0 +1,32 @@
+.rect{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    background-color: red;
+    /* animation-name:mymove;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+    -webkit-animation: mymove 3s ease 1s infinite alternate;
+            animation: mymove 3s ease 1s infinite alternate;
+}
+/* @keyframes mymove{
+    from { top:0;left: 20%; }
+    to { top:0;left: 80%; }
+} */
+@-webkit-keyframes mymove{
+    0% { top:0;left: 20%; background-color: red;}
+    25% { top:0;left: 80%; background-color:orange;}
+    50% { top:80%;left: 80%; background-color: yellow;}
+    75% { top:80%;left: 20%; background-color: green;}
+    100% { top: 0; left: 20%; background-color: blue; }
+}
+@keyframes mymove{
+    0% { top:0;left: 20%; background-color: red;}
+    25% { top:0;left: 80%; background-color:orange;}
+    50% { top:80%;left: 80%; background-color: yellow;}
+    75% { top:80%;left: 20%; background-color: green;}
+    100% { top: 0; left: 20%; background-color: blue; }
+}
