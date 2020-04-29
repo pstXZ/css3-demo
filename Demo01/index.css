@@ -1,0 +1,16 @@
+body{
+    text-align: center;
+}
+img{
+    border-radius: 50%;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;   
+    cursor: pointer;
+    width: 400px;
+    height: 400px;
+}
+img:hover{
+    /* transform变形属性  scale：缩放1.1倍*/
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+}

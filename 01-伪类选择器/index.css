@@ -1,0 +1,20 @@
+a:link{
+    color: #666;
+}
+a:visited{
+    color: #f00;
+}
+a:hover{
+    color: #000;
+}
+a:active{
+    color: #0f0;
+}
+
+input:enabled{
+    background-color: #0f0;
+}
+
+input:disabled{
+    background-color: #f00;
+}

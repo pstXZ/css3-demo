@@ -1,0 +1,40 @@
+.demo{
+    border: 1px solid #ccc;
+    width: 300px;
+    margin: 50px auto;
+    padding: 10px;
+}
+
+/* 第一个元素 */
+.demo::first-letter{
+    font-size: 40px;
+    font-weight: bold;
+    float: left;
+}
+/* 第一行的样式 */
+
+.demo::first-line{
+    color: #f0f;
+}
+
+.demo01{
+    width: 400px;
+    border: 1px solid #ccc;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.demo01::before{
+    content: url(./panda.jpg);
+    display: block;
+}
+
+.demo01::after{
+    content: "";
+    display: block;
+}
+
+
+
+

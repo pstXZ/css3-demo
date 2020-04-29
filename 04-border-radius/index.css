@@ -1,0 +1,14 @@
+.demo{
+    width: 100px;
+    height: 200px;
+    border: 1px solid #ccc;
+    background-color: #f00;
+    margin: 50px auto;
+    /* border-radius: 50%; */
+    /* border-top-left-radius: 50%;
+    border-top-right-radius: 50%; */
+    /* border-radius: 100px 100px 0px 0px; */
+    /* border-top-left-radius: 100px 50px; */
+    border-radius: 100px 0px 0px 100px;
+
+}
